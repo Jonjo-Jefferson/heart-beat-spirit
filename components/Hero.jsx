@@ -8,7 +8,7 @@ const Hero = () => {
       <div className='grid md:grid-cols-2 max-w-7xl m-auto'>
         <div className='flex flex-col justify-center md:items-start w-full px-2 py-8'>
           <p className='text-2xl text-cyan-50'>Tarrot Reading, TikTok, portal</p>
-          <h1 className='py-3 text-5xl md:text-7xl font-bold text-cyan-50 font-Aref'>Heartbeat Spirit Communications</h1>
+          <h1 className='py-3 text-5xl md:text-6xl font-bold text-cyan-50 font-Space '>HEARTBEAT SPIRIT COMMUNICATIONS</h1>
           <button className='py-3 px-6 sm:w-[60%]'>Book a Reading</button>
         </div>
         <div>
