@@ -23,8 +23,8 @@ const Navbar = () => {
           </ul>
         </div>
         <div className='hidden md:flex pr-4'>
-          <button className='border-none bg-transparent text-cyan-50 pr-4'>Sign In</button>
-          <button className='btn btn-primary'>Sign Up</button>
+          <button className='border-none bg-transparent text-cyan-50 pr-4 hover:text-secondary'>Sign In</button>
+          <button className='btn btn-primary '>Sign Up</button>
         </div>
         <div className='md:hidden text-cyan-50' onClick={handleClick}>
           {!nav ? <Bars3Icon className='w-5' /> : <XMarkIcon className='w-5' />}
