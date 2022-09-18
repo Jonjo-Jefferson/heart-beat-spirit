@@ -3,11 +3,11 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
 import Image from 'next/image';
 import logo from '../public/images/logo-main.png';
 
-export default function Navbar() {
+const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className='w-screen h-20 z-10 bg-zinc-900 drop-shadow-lg'>
+    <div className='w-full h-20 z-10 bg-zinc-900 drop-shadow-lg'>
       <div className='px-2 flex justify-between items-center w-full h-full'>
         <div className='flex mr-4 items-center'>
           <div className='w-60 mt-5 mr-8 '>
@@ -44,4 +44,6 @@ export default function Navbar() {
       </ul>
     </div>
   );
-}
+};
+
+export default Navbar;
