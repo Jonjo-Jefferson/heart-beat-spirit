@@ -11,9 +11,7 @@ const Hero = () => {
           <h1 className='py-3 text-4xl md:text-6xl font-bold text-primary '>HEARTBEAT SPIRIT COMMUNICATIONS</h1>
           <button className='btn btn-secondary text-neutral'>Book a Reading</button>
         </div>
-        <div>
-          <Image src={planchette} alt='planchette' />
-        </div>
+        <div className='w-full mt-12 md:mt-0'>{/* <Image src={planchette} alt='planchette' /> */}</div>
       </div>
     </div>
   );
