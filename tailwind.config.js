@@ -7,5 +7,20 @@ module.exports = {
       Space: ['Aref Ruqaa Ink', 'serif'],
     },
   },
-  plugins: [],
+  plugins: [require('daisyui')],
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          primary: '#8ECAE6',
+          secondary: '#219EBC',
+          accent: '#FB8500',
+          neutral: '#023047',
+          'base-100': '#ffffff',
+        },
+      },
+      'dark',
+      'cupcake',
+    ],
+  },
 };
