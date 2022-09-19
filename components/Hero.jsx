@@ -13,9 +13,9 @@ const Hero = () => {
           <h1 className='py-3 text-4xl md:text-6xl font-bold text-primary font-Space '>
             HEARTBEAT SPIRIT COMMUNICATIONS
           </h1>
-          <button className='btn btn-secondary text-neutral'>Book a Reading</button>
+          <button className='btn btn-secondary text-neutral my-2'>Book a Reading</button>
         </div>
-        <div className='opacity-10'>
+        <div className=' max-w-sm opacity-10'>
           <Image alt='/' src={hero1} />
         </div>
       </div>
