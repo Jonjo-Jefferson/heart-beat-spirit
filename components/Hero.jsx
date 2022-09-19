@@ -7,7 +7,7 @@ const Hero = () => {
     <div className=' h-screen bg-zinc-900 flex flex-col justify-between'>
       <div className='grid md:grid-cols-2 max-w-7xl m-auto'>
         <div className='flex flex-col md:items-start px-2 py-8 text-center md:text-left'>
-          <p className='text-2xl text-accent'>
+          <p className='text-2xl text-secondary'>
             Paranormal Investigators | Tarot Readings | Portal Sessions
           </p>
           <h1 className='py-3 text-4xl md:text-6xl font-bold text-primary font-Space '>
@@ -15,7 +15,7 @@ const Hero = () => {
           </h1>
           <button className='btn btn-secondary text-neutral'>Book a Reading</button>
         </div>
-        <div className='opacity-5'>
+        <div className='opacity-10'>
           <Image alt='/' src={hero1} />
         </div>
       </div>

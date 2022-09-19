@@ -13,10 +13,14 @@ module.exports = {
       {
         mytheme: {
           primary: '#8ECAE6',
-          secondary: '#219EBC',
-          accent: '#FB8500',
-          neutral: '#023047',
-          'base-100': '#ffffff',
+          secondary: '#E67D82',
+          accent: '#9D21E6',
+          neutral: '#3D4451',
+          'base-100': '#FFFFFF',
+          info: '#3ABFF8',
+          success: '#36D399',
+          warning: '#FBBD23',
+          error: '#F87272',
         },
       },
       'dark',
