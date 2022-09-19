@@ -6,7 +6,7 @@ import Portal from '../public/images/portal.avif';
 
 function About() {
   return (
-    <div className=' h-screen bg-zinc-600 '>
+    <div className=' h-full bg-zinc-600 '>
       <div className='text-center py-3'>
         <h2 className='text-5xl text-secondary'>Services</h2>
         <p className='text-primary text-lg'>
