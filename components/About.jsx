@@ -25,7 +25,7 @@ function About() {
               <h2 className='card-title'>Tarot Reading</h2>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, perferendis!</p>
               <div className='card-actions justify-end'>
-                <button className='btn btn-primary'>Buy Now</button>
+                <button className='btn btn-primary'>Book Now</button>
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@ function About() {
               <h2 className='card-title'>Paranormal Investigations</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, officiis?</p>
               <div className='card-actions justify-end'>
-                <button className='btn btn-primary'>Buy Now</button>
+                <button className='btn btn-primary'>Book Now</button>
               </div>
             </div>
           </div>
@@ -49,7 +49,7 @@ function About() {
               <h2 className='card-title'>Portal Sessions</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, quibusdam.</p>
               <div className='card-actions justify-end'>
-                <button className='btn btn-primary'>Buy Now</button>
+                <button className='btn btn-primary'>Book Now</button>
               </div>
             </div>
           </div>
