@@ -7,7 +7,7 @@ export const About = () => {
     <div className='relative bg-secondary'>
       <div className='lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-12 lg:items-center'>
         <div className='lg:col-start-2 md:pl-20'>
-          <h4 className='text-2xl leading-8 font-extrabold text-gray-900 dark:text-white tracking-tight sm:leading-9 font-Montserrat'>
+          <h4 className='text-2xl leading-8 font-extrabold text-gray-900 dark:text-white tracking-tight sm:leading-9 font-Montserrat p-4'>
             Meet Charlene
           </h4>
           <ul className='mt-10'>
@@ -91,7 +91,7 @@ export const About = () => {
             </li>
           </ul>
         </div>
-        <div className='opacity-80  '>
+        <div className='opacity-80'>
           <Image src={Charlene} alt='' />
         </div>
       </div>
