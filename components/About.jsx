@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import Charlene from '../public/images/Charlene.jpg';
+import Charlene from '../public/images/charlene.jpg';
 
 export const About = () => {
   return (
