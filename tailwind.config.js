@@ -5,6 +5,8 @@ module.exports = {
     extend: {},
     fontFamily: {
       Space: ['Aref Ruqaa Ink', 'serif'],
+      Montserrat: ['Montserrat Alternates', 'sans-serif'],
+      OpenSans: ['Open Sans', 'sans-serif'],
     },
   },
   plugins: [require('daisyui')],

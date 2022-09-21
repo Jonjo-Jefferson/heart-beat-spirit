@@ -1,62 +1,100 @@
 import Image from 'next/image';
 import React from 'react';
-import Tarot from '../public/images/tarot1.jpg';
-import Paranormal from '../public/images/paranormal1.jpg';
-import Portal from '../public/images/portal.avif';
+import Charlene from '../public/images/Charlene.jpg';
 
-function About() {
+export const About = () => {
   return (
-    <div className=' h-full bg-zinc-600 '>
-      <div className='text-center py-3'>
-        <h2 className='text-5xl text-secondary'>Services</h2>
-        <p className='text-primary text-lg'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil alias commodi libero cumque
-          quod ipsam non molestias, unde velit enim.
-        </p>
-      </div>
-      {/* Card Container */}
-      <div className='flex flex-col'>
-        <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3  gap-5 justify-between max-w-7xl mx-auto'>
-          <div className='card card-compact w-96 bg-base-100 shadow-xl'>
-            <figure>
-              <Image src={Tarot} alt='/' />
-            </figure>
-            <div className='card-body'>
-              <h2 className='card-title'>Tarot Reading</h2>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, perferendis!</p>
-              <div className='card-actions justify-end'>
-                <button className='btn btn-primary'>Book Now</button>
+    <div className='relative bg-secondary'>
+      <div className='lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-12 lg:items-center'>
+        <div className='lg:col-start-2 md:pl-20'>
+          <h4 className='text-2xl leading-8 font-extrabold text-gray-900 dark:text-white tracking-tight sm:leading-9 font-Montserrat'>
+            Meet Charlene
+          </h4>
+          <ul className='mt-10'>
+            <li>
+              <div className='flex'>
+                <div className='flex-shrink-0'>
+                  <div className='flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white'>
+                    <svg
+                      width='20'
+                      height='20'
+                      fill='currentColor'
+                      class='h-6 w-6'
+                      viewBox='0 0 1792 1792'
+                      xmlns='http://www.w3.org/2000/svg'
+                    >
+                      <path d='M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z'></path>
+                    </svg>
+                  </div>
+                </div>
+                <div className='ml-4'>
+                  <h5 className='text-lg leading-6 text-gray-900 dark:text-white font-bold'>
+                    Need text
+                  </h5>
+                  <p className='mt-2 text-base leading-6 text-neutral'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, perspiciatis.
+                  </p>
+                </div>
               </div>
-            </div>
-          </div>
-          <div className='card card-compact w-96 bg-base-100 shadow-xl'>
-            <figure>
-              <Image src={Paranormal} alt='/' />
-            </figure>
-            <div className='card-body'>
-              <h2 className='card-title'>Paranormal Investigations</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, officiis?</p>
-              <div className='card-actions justify-end'>
-                <button className='btn btn-primary'>Book Now</button>
+            </li>
+            <li className='mt-10'>
+              <div className='flex'>
+                <div className='flex-shrink-0'>
+                  <div className='flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white'>
+                    <svg
+                      width='20'
+                      height='20'
+                      fill='currentColor'
+                      className='h-6 w-6'
+                      viewBox='0 0 1792 1792'
+                      xmlns='http://www.w3.org/2000/svg'
+                    >
+                      <path d='M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z'></path>
+                    </svg>
+                  </div>
+                </div>
+                <div className='ml-4'>
+                  <h5 className='text-lg leading-6 text-gray-900 dark:text-white font-bold'>
+                    Need text
+                  </h5>
+                  <p className='mt-2 text-base leading-6 text-neutral'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, adipisci.
+                  </p>
+                </div>
               </div>
-            </div>
-          </div>
-          <div className='card card-compact w-96 bg-base-100 shadow-xl'>
-            <figure>
-              <Image height='500px' src={Portal} alt='/' />
-            </figure>
-            <div className='card-body'>
-              <h2 className='card-title'>Portal Sessions</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, quibusdam.</p>
-              <div className='card-actions justify-end'>
-                <button className='btn btn-primary'>Book Now</button>
+            </li>
+            <li className='mt-10'>
+              <div className='flex'>
+                <div className='flex-shrink-0'>
+                  <div className='flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white'>
+                    <svg
+                      width='20'
+                      height='20'
+                      fill='currentColor'
+                      className='h-6 w-6'
+                      viewBox='0 0 1792 1792'
+                      xmlns='http://www.w3.org/2000/svg'
+                    >
+                      <path d='M491 1536l91-91-235-235-91 91v107h128v128h107zm523-928q0-22-22-22-10 0-17 7l-542 542q-7 7-7 17 0 22 22 22 10 0 17-7l542-542q7-7 7-17zm-54-192l416 416-832 832h-416v-416zm683 96q0 53-37 90l-166 166-416-416 166-165q36-38 90-38 53 0 91 38l235 234q37 39 37 91z'></path>
+                    </svg>
+                  </div>
+                </div>
+                <div className='ml-4'>
+                  <h5 className='text-lg leading-6 text-gray-900 dark:text-white font-bold'>
+                    Need text
+                  </h5>
+                  <p className='mt-2 text-base leading-6 text-neutral'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, dolorem.
+                  </p>
+                </div>
               </div>
-            </div>
-          </div>
+            </li>
+          </ul>
+        </div>
+        <div className='opacity-80  '>
+          <Image src={Charlene} alt='' />
         </div>
       </div>
     </div>
   );
-}
-
-export default About;
+};
